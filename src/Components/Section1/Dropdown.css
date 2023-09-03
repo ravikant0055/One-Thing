@@ -1,0 +1,41 @@
+.drop-cont{
+     width:250px;
+     border-radius: 10px;
+     /* height: 10px;  */
+      background-color: #fff;
+}
+
+.drop-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 9px 15px;
+    font-family: 'Hind', sans-serif;
+    box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+}
+
+.drop-opt{
+   padding: 5px 10px;
+   /* margin-top: 5px; */
+   color: black;
+   width: 90%;
+   /* background-color: #fff; */
+   box-shadow: 3px 3px 10px 6px rgba(0,0,0,0.06);
+  
+}
+
+.drop-item{
+  cursor: pointer;
+  transition: all 0.2s;
+  padding: 10px 0px;
+  font-family: 'Hind', sans-serif;
+}
+
+.drop-item:hover{
+    background: #f4f4f4;
+}

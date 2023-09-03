@@ -1,0 +1,99 @@
+.f-con{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Hind', sans-serif;
+}
+
+.f-con h1{
+    margin: 0 30px;
+    padding: 1.5rem 0rem;
+    font-size: 1.8rem;
+}
+
+.f-text{
+   padding: 0px 50px;
+   margin-top: 20px;
+}
+
+.f-text h2{
+    font-size: 1.9rem;
+    font-family: 'Hind', sans-serif;
+    white-space: nowrap;
+}
+
+.f-text p, a{
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.f-slide{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(189,223,253);
+    width: 90%;
+}
+
+.f-slide ul{
+    list-style: none;
+    padding-inline-start: 0;
+}
+
+.f-slide ul li{
+    color: rgb(60, 60, 60);
+    font-size: 1.2rem;
+    background-color: #fff;
+    line-height: 1.7;
+    font-weight: 900;
+    margin: 50px 0;
+    padding: 10px 50px 10px 15px;
+    border-radius: 10px;
+    font-family: 'Poppins',sans-serif ;
+    white-space: nowrap;
+    box-shadow:  3px 3px 9px rgba(84, 84, 84,0.4);
+}
+.f-slide ul li:nth-child(2) {
+    opacity: 80%;
+ }
+.f-slide ul li:nth-child(3) {
+   opacity: 60%;
+}
+
+.f-con i {
+    font-size: 1.5rem;
+    display: none;
+}
+.fa-file-lines{
+    color: rgb(128,195,255);
+}
+
+
+@media (min-width: 768px)
+{
+    .f-con{
+        flex-direction: row;
+    }
+    .f-text{
+        margin-left: 40px;
+        width: 40%;
+    }
+    .f-text p{
+       padding-right:80px ;
+    }
+    .f-slide{
+        width: 50%;
+    }
+    .f-con i {
+        display: block;
+    }
+    .f-text a{
+        display: none;
+    }
+    .f-con h1{
+        display: none;
+    }
+}

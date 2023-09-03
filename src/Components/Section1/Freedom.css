@@ -1,0 +1,97 @@
+.free-con{
+    background-color: rgb(142,124,182);
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    font-family: 'Hind', sans-serif;
+    color: #fff;
+    padding: 2rem 0 4rem 0 ;
+}
+
+.free-text{
+   width: 100%;
+   padding: 20px 0;
+   margin: 0 auto;
+}
+.free-text h2{
+    font-size: 1.9rem;
+    font-family: 'Hind', sans-serif;
+    white-space: nowrap;
+    margin: 0px 50px;
+}
+
+.free-slid{
+    padding: 0px 50px;
+ }
+ 
+ .free-slid p{
+     font-size: 1rem;
+     font-family: 'Poppins', sans-serif;
+     color: #fff;
+ }
+
+ .free-slid a{
+    color: #fff;
+}
+.drop-con{
+    display: none;
+}
+
+.mydrop p{
+    font-size: 0.8rem;
+}
+
+.drop-cls{
+  display: flex;
+  flex-direction: row;
+}
+
+.drop-cls button{
+    color: #fff;
+    background-color: rgb(78, 63, 107);
+    border: none;
+    border-radius: 30px;
+    padding: 5px 15px;
+    margin-left:  10px;
+    height: max-content;
+    white-space: nowrap;
+    font-size: 1.2rem;
+    font-family: 'Hind', sans-serif;
+}
+@media (min-width: 768px)
+{
+    .free-con{
+        flex-direction: row;
+        padding: 4rem 0 ;
+    }
+    .free-slid {
+        /* background-color: blue; */
+        padding-left:90px;
+        width: 40%;
+    }
+    .free-slid p{
+        padding-right:40px ;
+    }
+    .free-text{
+       width: 50%;
+       /* background-color: red; */
+    }
+    .free-text h2{
+        padding-left: 30px;
+    }
+    .drop-con{
+        display: block;
+    }
+    .drop-con p{
+        padding-top: 10px;
+        
+    }
+    .drop-con a{
+        padding-top: 10px;
+    }
+    .mydrop{
+        display: none;
+
+    }
+    
+}    
