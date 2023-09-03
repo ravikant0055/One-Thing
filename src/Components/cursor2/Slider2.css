@@ -37,9 +37,8 @@
     /* align-items: center; */
 }
 .slick-dots.slick-thumb li {
-    width: 80px;
+    width: 55px;
     height: 5px;
-    margin: 1 9px;
   }
 
 .slick-dots.slick-thumb li.slick-active {
@@ -48,7 +47,7 @@
 }  
 
 a img {
-    width: 100px;
+    width: 70px;
     /* height: 130px; */
     /* display: flex; */
 }
@@ -58,5 +57,12 @@ a img {
     .con{
         height: 20rem;
     }
+    .slick-dots.slick-thumb li {
+        width: 80px;
+    }
+    a img {
+    width: 100px;
+    }
+    
     
 }
