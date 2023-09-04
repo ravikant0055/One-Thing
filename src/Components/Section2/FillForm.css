@@ -4,6 +4,7 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Hind', sans-serif;
+    overflow-x: hidden;
 }
 
 .f-con h1{

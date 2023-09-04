@@ -6,6 +6,7 @@
     font-family: 'Hind', sans-serif;
     color: #fff;
     padding: 2rem 0 4rem 0 ;
+    overflow-x: hidden;
 }
 
 .free-text{

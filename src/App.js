@@ -12,7 +12,7 @@ import Bestchoice from './Components/Section5/Bestchoice';
 function App() {
   
   return (
-    <BrowserRouter>
+    <BrowserRouter basename='/One-Thing'>
       <Navbar/>
       <Header/>
       <Freedom/>
